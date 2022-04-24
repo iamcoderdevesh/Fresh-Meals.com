@@ -23,7 +23,7 @@ html {
 .personalinfo {
     margin: 0px 0px;
     margin-top: 10px;
-    margin-right: 50px;
+    margin-right: 8px;
 }
 
 .personalinfo img {
@@ -38,7 +38,6 @@ html {
     font-size: 10px;
     margin-top: 2px;
 }
-
 /* Navigation Bar */
 .topnav {
     height: auto;
@@ -46,7 +45,7 @@ html {
     position: relative;
 }
 
-.topnav a {
+.navbar a {
     display: none;
 }
 
@@ -68,7 +67,7 @@ html {
     border-radius: 65px;
 }
 
-.topnav a {
+.navbar a {
     padding: 14px 16px;
     font-size: 17px;
     border-radius: 0px;
@@ -85,7 +84,7 @@ html {
     height: 75px;
     width: 106px;
     margin-left: 55px;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 
 .navbar .icon {
@@ -213,17 +212,19 @@ html {
 #Services-section {
     height: 1650px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #Services {
     display: flex;
     flex-direction: column;
     height: 1500px;
-    padding: 0px;
+    padding: 35px;
 }
-
-.services-img {
-    padding: 0px;
+.service-img {
+    padding: 82px;
+    margin: -50px 62px;
+    margin-bottom: 0px;
 }
 
 /* About us Section */

@@ -77,14 +77,14 @@ html {
 .logo p {
     padding: 5px 14px;
     font-size: 15px;
-    margin: 38px -15px;
+    margin: 24px -15px;
 }
 
-.logo img {
+.logo img{
     height: 75px;
     width: 106px;
     margin-left: 55px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .navbar .icon {
@@ -212,17 +212,19 @@ html {
 #Services-section {
     height: 1650px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #Services {
     display: flex;
     flex-direction: column;
     height: 1500px;
-    padding: 0px;
+    padding: 35px;
 }
-
-.services-img {
-    padding: 0px;
+.service-img {
+    padding: 82px;
+    margin: -50px 62px;
+    margin-bottom: 0px;
 }
 
 /* About us Section */
