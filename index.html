@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh-Meals.com</title>
+    <link rel="icon" href="icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/phone.css">
+    <link rel="stylesheet" media="screen and (min-width: 1001px) and (max-width: 1600px)" href="css/tablet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="scrolltop">
+        <img src="icons/icon.png" alt="Go-to-top" id="myBtn" onclick="topFunction()">
+    </div>
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <div class="personalinfo">
+            <img src="icons/location.png" alt="location">
+            <p>Emperia Garden Rasayani,Panvel</p>
+            <img src="icons/phone.png" alt="phone">
+            <p>+91-9821792235</p>
+        </div>
+        <div class="logo">
+            <img src="icons/logo.png" alt="logo">
+            <p>Fresh-Meals</p>
+        </div>
+        <br>
+        <div class="navbar">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <br><br><br><a href="#slideshow-container" class="nav active" id="navid">Home</a>
+            <a href="#Services-section" class="nav" onclick="change_color()">Services</a>
+            <a href="#About-us" class="nav" onclick="change_color()">About us</a>
+            <a href="#Menu-section" class="nav" onclick="change_color()">Our Menu</a>
+            <a href="#Contact-us" class="nav" onclick="change_color()">Contact us</a>
+        </div>
+    </div>
+    <!-- <div id="navbar">
+        <ul id="navbar-ul">
+            <img src="logo.png" alt="logo">
+            <li><a href="#slideshow-container" class="navbar-btn active">Home</a></li>
+            <li><a href="#Services-section" class="navbar-btn">Services</a></li>
+            <li><a href="#About-us" class="navbar-btn">About us</a></li>
+            <li><a href="#Menu-section" class="navbar-btn">Our Menu</a></li>
+            <li><a href="#Contact-us" class="navbar-btn">Contact us</a></li>
+        </ul>
+    </div> -->
+
+    <!-- Home Section  -->
+    <section id="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="bg/bg.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button class="active-btn"><a href="#About-us">Learn More</a></button>
+                <button><a href="">Make an order</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-2.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-3.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-4.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-5.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-6.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-7.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-8.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="bg/bg-9.jpg" style="width:100%">
+            <div class="text">
+                <h1>Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                    and <br>High Quality <br>Food Services.</h1>
+                <button><a href="">Make an Order</a></button>
+                <button><a href="#About-us">Learn More</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- <div id="home">
+            <h1 class="h1-home">Welcome To <br>Fast-Food <br>Delivery Receive<br> Great
+                and <br>High Quality <br>Food Services.</h1>
+            <div class="Button">
+                <button class="btn">Make an Order</button>
+                <button class="btn-1"><a href="#About-us">Learn More</a></button>
+            </div>
+    </div> -->
+
+    <!-- Services-section -->
+
+    <section id="Services-section">
+        <h1 class="h1-services">Services</h1>
+        <div id="Services">
+            <div class="service-img">
+                <img src="Services-img/map.png" alt=""><br>
+                <h2>Live Order Tracking</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi neque
+                    laboriosam ut quidem et corrupti asperiores necessitatibus pariatur ipsum
+                    placeat.</p>
+            </div>
+            <div class="service-img">
+                <img src="Services-img/delivery.png" alt=""><br>
+                <h2>Free and Fast Delivery</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi neque
+                    laboriosam ut quidem et corrupti asperiores necessitatibus pariatur ipsum
+                    placeat.</p>
+                <!-- style="width: 400px; height: 260px;" -->
+            </div>
+            <div class="service-img">
+                <img src="Services-img/order.png" alt=""><br>
+                <h2>No Minimum Order</h2><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi neque
+                    laboriosam ut quidem et corrupti asperiores necessitatibus pariatur ipsum
+                    placeat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About-us Section -->
+
+    <div id="About-us">
+        <div class="about-section">
+            <h1 class="h1-about-section">About Us</h1>
+            <p>lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Aliquam doloremque
+            <br>voluptatem
+            laborculpaducimus
+            odio ut illo <br> est vero temporibus aliquid quasi<br> magni libero molestias sequi saepe, fuga <br>
+            nesciun
+            quibusdam
+        </p>
+        <a href="" class="btn">About-us</a>
+        </div>
+
+    </div>
+
+    <!-- Menu Section  -->
+
+    <section id="Menu-section">
+        <h1 class="menu-h1">Our Menu's</h1>
+        <div class="menu_row">
+            <div class="column_image">
+              <img src="web photos/logo.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo1.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo2.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo3.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo4.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo5.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo6.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image">
+              <img src="web photos/logo7.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column_image" id="last-img">
+              <img src="web photos/logo8.jpg" alt="" style="width:100%">
+            </div>
+          </div>
+        <!-- <div id="Menu">
+            <div class="menu-img">
+                <img src="web photos/logo.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo1.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo2.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo3.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo4.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo5.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo6.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo7.jpg" alt="">
+            </div>
+            <div class="menu-img">
+                <img src="web photos/logo8.jpg" alt="">
+            </div>
+        </div> -->
+    </section>
+
+    <!-- Contact-us Seection  -->
+
+    <section id="Contact-us">
+        <h1 class="contact-h1">Contact Us</h1>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.1327463758835!2d73.16142546533422!3d18.88119126297228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7e14b4542b259%3A0xe4f867a0adf8ed17!2sAkshar%20Emperia%20Garden%2C%20Rasayani%2C%20Maharashtra%20410220!5e0!3m2!1sen!2sin!4v1648024647981!5m2!1sen!2sin"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div id="social-media">
+                <ul class="social-contacts">
+                    <li><a href="https://www.facebook.com/devesh.ukalkar.71"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/Devesh75853332?t=XWiunmpqJsFVSm1qorUrFA&s=09"><i
+                                class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://instagram.com/i_m_devesh.007?utm_medium=copy_link"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://youtube.com/channel/UCfIwr4U5Q-Yjh9T6T0vGwGg"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/devesh-ukalkar-a52089231"><i
+                                class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <form>
+            <div id="contact">
+                <form>
+                    <label>Name:</label>
+                    <input type="text" name="Name" placeholder="Name" required />
+                    <label>Contact Number:</label>
+                    <input type="number" name="phone" placeholder="Phone No." required>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter Your Email" name="email" required>
+                    <label for="text">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"
+                        placeholder="Enter Your Message"></textarea>
+                    <button type="submit" class="registerbtn"> Sent Message </button>
+                </form>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Section  -->
+    <hr>
+    <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy; 2022 FreshMeals.com <span> Website Design and Developed by Devesh
+                    Ukalkar.</span></p>
+        </div>
+    </footer>
+    <hr>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

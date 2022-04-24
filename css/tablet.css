@@ -1,0 +1,256 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+}
+.logo{
+    margin-top: 0px;
+}
+.logo p{
+    font-size: 25px;
+}
+.personalinfo{
+    margin: 0px 38px;
+    margin-top: 20px;
+}
+/* Navigation Bar */
+.navbar{
+    padding: 0px 6px;
+}
+.topnav a{
+    padding: 8px 18px;
+    font-size: 18px;
+    margin: 35px 10px;
+}
+.topnav a:hover{
+    margin: 25px 10px;
+}
+/* Home Section */
+#slideshow-container {
+    width: auto;
+    height: 700px;
+    overflow-x: hidden;
+    /* margin-top:130px; */
+}
+
+.mySlides img {
+    height: 700px;
+    overflow-x: hidden;
+}
+
+.text {
+    font-size: 30px;
+    margin: -50px 30px;
+}
+
+.text button {
+    font-size: 25px;
+    margin: 26px 5px;
+}
+
+/* Services Section */
+#Services-section {
+    height: 650px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#Services {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    padding: 0px;
+}
+#Services .service-img img {
+    height: 150px;
+}
+#Services .service-img img {
+    font-size: 35px;
+}
+#Services .service-img p{
+    font-size: 16px;
+}
+.service-img {
+    padding: 45px;
+    margin: 0px 0px;
+}
+
+/* About us Section */
+
+#About-us {
+    height: 896px;
+    width: auto;
+    overflow-x: hidden;
+}
+
+#About-us::before {
+    content: "";
+    position: absolute;
+    background: url('../bg/bg_responsive.jpg') no-repeat center/cover;
+    height: 896px;
+    /* background-size: 100%; */
+    margin: 0px;
+    z-index: -60;
+    opacity: 0.65;
+}
+
+.h1-about-section {
+    /* margin: 120px 15px; */
+    font-size: 60px;
+}
+
+.about-section {
+    margin: -76px 14px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.btn {
+    /* margin: 104px 10px;
+    width: auto;
+    height: 15%; */
+    float: right;
+    font-size: 30px;
+    /* padding: 2px 18px; */
+}
+
+/* Menu-section */
+
+#Menu-section {
+    height: 100%;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.menu-h1 {
+    font-size: 45px;
+}
+.column_image {
+    width: 50%;
+}
+#last-img{
+    display: none;
+}
+.column_image img {
+    height: 400px;
+}
+/* .menu-img {
+    height: 100%;
+}
+
+.menu-img img {
+    height: 100%;
+    width: 100%;
+} */
+
+/* Contact Us  Section */
+#Contact-us {
+    height: 1475px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#Contact-us::before {
+    height: 1580px;
+    width: 100%;
+    margin: 0px 0px;
+    background: url('../contact/contact-res.jpg') no-repeat center/cover;
+}
+
+.contact-h1 {
+    font-size: 62px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-top: -75px;
+}
+
+.map {
+    margin-left: 6px;
+    margin-bottom: 0px;
+}
+
+.map iframe {
+    height: 450px;
+    width: 800px;
+}
+
+#social-media {
+    margin-left: -50px;
+    width: auto;
+    margin-bottom: 0px;
+}
+
+#social-media p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.social-contacts{
+    margin-top: 30px;
+}
+.social-contacts li {
+    margin: 6px 4px;
+}
+.social-contacts a i {
+    padding: 0px 15px;
+}
+.social-contacts a i {
+    font-size: 40px;
+}
+
+#contact {
+    /* margin-left: 350px; */
+    /* margin-top: 32px; */
+    /* text-align: center; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#Contact-us form {
+    margin-right: 200px;
+    width: 100%;
+    display: inline-block;
+    margin: 10px;
+}
+
+.registerbtn {
+    width: 275px;
+    /* margin-left: 100px; */
+    height: 65px;
+    padding: 1px;
+    font-size: 26px;
+    margin: auto;
+    margin-top: 30px;
+    /* margin-right: 135px; */
+}
+
+#contact label,
+#contact input,
+#contact textarea {
+    width: 60%;
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer  */
+.footer-bottom {
+    width: auto;
+    padding: 10px 0px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
