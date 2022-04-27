@@ -18,12 +18,15 @@ html {
     bottom: 20px;
     right: 20px;
     padding: 5px;
+    height: 60px;
+    width: 65px;
 }
 
 .personalinfo {
     margin: 0px 0px;
     margin-top: 10px;
-    margin-right: 8px;
+    margin-right: 35px;
+    display: none;
 }
 
 .personalinfo img {
@@ -38,6 +41,7 @@ html {
     font-size: 10px;
     margin-top: 2px;
 }
+
 /* Navigation Bar */
 .topnav {
     height: auto;
@@ -62,7 +66,7 @@ html {
     display: block;
     right: 0;
     top: 0;
-    margin: 20px 0px;
+    margin: -15px 0px;
     padding: 12px 20px;
     border-radius: 65px;
 }
@@ -76,15 +80,15 @@ html {
 
 .logo p {
     padding: 5px 14px;
-    font-size: 15px;
-    margin: 24px -15px;
+    font-size: 20px;
+    margin: 29px -15px;
 }
 
 .logo img {
     height: 75px;
     width: 106px;
     margin-left: 55px;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .navbar .icon {
@@ -99,7 +103,7 @@ html {
     position: absolute;
     right: 0;
     top: 20px;
-    margin: 15px 0px;
+    margin: 5px 0px;
 }
 
 .topnav.responsive a {
@@ -109,6 +113,7 @@ html {
 
 .logo {
     margin-left: -65px;
+    margin-bottom: 25px;
 }
 
 .active {
@@ -198,13 +203,13 @@ html {
     overflow-x: hidden;
 }
 
-.text {
+.mySlides .text {
     font-size: 22px;
     margin: 2px 9px;
 }
 
 .text button {
-    font-size: 10px;
+    font-size: 15px;
     margin: 26px 5px;
 }
 
@@ -221,6 +226,7 @@ html {
     height: 1500px;
     padding: 35px;
 }
+
 .service-img {
     padding: 82px;
     margin: -50px 62px;
@@ -277,12 +283,15 @@ html {
 .menu-h1 {
     font-size: 32px;
 }
+
 .column_image {
     width: 100%;
 }
+
 .column_image img {
     height: 425px;
 }
+
 /* .menu-img {
     height: 100%;
 }
@@ -294,7 +303,7 @@ html {
 
 /* Contact Us  Section */
 #Contact-us {
-    height: 1576px;
+    height: 2250px;
     width: 100%;
     overflow-x: hidden;
 }
@@ -309,7 +318,7 @@ html {
 .contact-h1 {
     font-size: 62px;
     margin-left: 0px;
-    margin-bottom: 105px;
+    margin-bottom: 70px;
     margin-top: -70px;
 }
 
@@ -377,6 +386,50 @@ html {
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.dbox p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 19px;
+}
+
+.dbox .text {
+    width: 100%;
+}
+
+.dbox .icon {
+    width: 75px;
+    height: 70px;
+}
+
+.dbox .icon span {
+    font-size: 25px;
+}
+
+.dbox {
+    padding: 0px;
+}
+
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 45%;
 }
 
 /* footer  */

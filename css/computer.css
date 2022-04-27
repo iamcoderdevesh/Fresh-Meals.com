@@ -20,8 +20,11 @@ html {
     font-size: 25px;
 }
 .personalinfo{
-    margin: 0px 38px;
+    margin: 0px 30px;
     margin-top: 20px;
+}
+.logo img{
+    margin-top: 15px;
 }
 /* Navigation Bar */
 .navbar{
@@ -38,14 +41,19 @@ html {
 /* Home Section */
 #slideshow-container {
     width: auto;
-    height: 700px;
+    height: 1000px;
     overflow-x: hidden;
     /* margin-top:130px; */
 }
 
 .mySlides img {
-    height: 700px;
+    height: 1000px;
     overflow-x: hidden;
+}
+
+.mySlides .text {
+    font-size: 35px;
+    top: 20px;
 }
 
 .text {
@@ -156,7 +164,7 @@ html {
 
 /* Contact Us  Section */
 #Contact-us {
-    height: 1475px;
+    height: 1700px;
     width: 100%;
     overflow-x: hidden;
 }
@@ -245,6 +253,94 @@ html {
     font-weight: bold;
 }
 
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 100px;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dbox {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.dbox .icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #2553b8;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.dbox .icon span {
+    font-size: 30px;
+    color: #fff;
+}
+
+.dbox .text {
+    width: 84%;
+}
+
+.dbox p {
+    margin-bottom: 0;
+    color: white;
+    font-size: 20px;
+}
+
+.dbox p span {
+    font-weight: 500;
+    color: rgb(248, 240, 240);
+}
+.col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-md-3 a{
+    color: #58cadb;
+}
 /* footer  */
 .footer-bottom {
     width: auto;
