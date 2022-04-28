@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="css/style1.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .row {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        *,
+        *::before,
+        *::after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .dbox {
+            width: 100%;
+            margin-bottom: 25px;
+            padding: 0 20px;
+        }
+
+        .text-center {
+            text-align: center !important;
+        }
+
+        .w-100 {
+            width: 100% !important;
+        }
+
+        .dbox .icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #2553b8;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .align-items-center {
+            -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+            align-items: center !important;
+        }
+
+        .justify-content-center {
+            -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+            justify-content: center !important;
+        }
+
+        .d-flex {
+            display: -webkit-box !important;
+            display: -ms-flexbox !important;
+            display: flex !important;
+        }
+
+        .dbox .icon span {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .dbox .text {
+            width: 100%;
+        }
+
+        .dbox p {
+            margin-bottom: 0;
+        }
+
+        .dbox p span {
+            font-weight: 500;
+            color: #000;
+        }
+
+        @media (min-width: 768px) {
+            .row{
+                flex-direction: row;
+            }
+            .col-md-3 {
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 25%;
+                flex: 0 0 25%;
+                max-width: 25%;
+            }
+
+            .dbox {
+                margin-bottom: 0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-map-marker"></span>
+                </div>
+                <div class="text">
+                    <p><span>Address:</span> A/604 Akshar Emperia Garden, Karde Khurd, Rasayani, Panvel, Maharastra 410206</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-phone"></span>
+                </div>
+                <div class="text">
+                    <p><span>Phone:</span> <a href="tel://1234567920">+91 9821792235</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-paper-plane"></span>
+                </div>
+                <div class="text">
+                    <p><span>Email:</span> <a href="mailto:deveshukalkar007@gmail.com">deveshukalkar007@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="dbox w-100 text-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                    <span class="fa fa-globe"></span>
+                </div>
+                <div class="text">
+                    <p><span>Website</span> <a href="iamcoderdevesh.github.io/Fresh-Meals.com">Fresh-Meals.com</a></p>
+                </div>
+            </div>
+</body>
+
+</html>

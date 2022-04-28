@@ -21,21 +21,21 @@ html {
 }
 
 .personalinfo {
-    margin: 0px 0px;
-    margin-top: 10px;
-    margin-right: 8px;
+    margin: -15px 0px;
+    /* margin-top: 10px; */
+    margin-right: 25px;
 }
 
 .personalinfo img {
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     margin-left: 15px;
 }
 
 .personalinfo p {
     margin: 0px 0px;
     color: white;
-    font-size: 10px;
+    font-size: 14px;
     margin-top: 2px;
 }
 
@@ -62,8 +62,9 @@ html {
     float: right;
     display: block;
     right: 0;
+    font-size: 21px;
     top: 0;
-    margin: 20px 0px;
+    margin: 25px 0px;
     padding: 12px 20px;
     border-radius: 65px;
 }
@@ -77,15 +78,15 @@ html {
 
 .logo p {
     padding: 5px 14px;
-    font-size: 15px;
+    font-size: 22px;
     margin: 38px -15px;
 }
 
 .logo img {
-    height: 75px;
-    width: 106px;
+    height: 90px;
+    width: 140px;
     margin-left: 55px;
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 .navbar .icon {
@@ -100,7 +101,7 @@ html {
     position: absolute;
     right: 0;
     top: 20px;
-    margin: 15px 0px;
+    margin: 25px 0px;
 }
 
 .topnav.responsive a {
@@ -189,23 +190,23 @@ html {
 /* Home Section */
 #slideshow-container {
     width: auto;
-    height: 700px;
+    height: 1052px;
     overflow-x: hidden;
-    /* margin-top:130px; */
+    /* margin-top: 130px; */
 }
 
 .mySlides img {
-    height: 700px;
+    height: 1052px;
     overflow-x: hidden;
 }
 
 .mySlides .text {
-    font-size: 22px;
-    margin: 2px 9px;
+    font-size: 30px;
+    margin: 100px 30px;
 }
 
 .text button {
-    font-size: 10px;
+    font-size: 28px;
     margin: 26px 5px;
 }
 
